@@ -1,0 +1,305 @@
+{
+  "_fv": 34,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 423,
+    "height": 212,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "dp3.png",
+          "use1Xscale": false,
+          "name": "dp3.png",
+          "x": 6,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Your Next Attack Applies A Debuff ",
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "name": "Your Next Attack Applies A Debuff ",
+          "x": 132,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Decreeses enemy Damage Resistance",
+          "color": {
+            "value": -3407617,
+            "falpha": 0.0
+          },
+          "name": "Decreeses enemy Damage Resistance",
+          "x": 132,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Enhance your Next 3 Attacks",
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "name": "Enhance your Next 3 Attacks",
+          "x": 132,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Each Attack Deals Bonus Damage",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "Each Attack Deals Bonus Damage",
+          "x": 132,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Gain Invisibility and Dash Forward ",
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "name": "Gain Invisibility and Dash Forward ",
+          "x": 132,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Deals Bonus Damage Upon Next Attack",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "Deals Bonus Damage Upon Next Attack",
+          "x": 132,
+          "y": 188
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Use",
+          "onClick": {
+            "name": "Dp1press"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "Use",
+          "x": 357,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Use",
+          "onClick": {
+            "name": "Dp2press"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "Use",
+          "x": 357,
+          "y": 125
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Use",
+          "onClick": {
+            "name": "Dp3press"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "Use",
+          "x": 357,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "5 Sec Cooldown",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "5 Sec Cooldown",
+          "x": 339,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "15 Sec Cooldown",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "15 Sec Cooldown",
+          "x": 339,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "20 Sec Cooldown",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "20 Sec Cooldown",
+          "x": 339,
+          "y": 206
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "[Cooldown]",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "[Cooldown]",
+          "x": 330,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "[Ability Description]",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "[Ability Description]",
+          "x": 141,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "[Ability Name]",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "[Ability Name]",
+          "x": 24,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Dash",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Dash",
+          "x": 60,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Swift Strike",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Swift Strike",
+          "x": 60,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Dash",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Dash",
+          "x": 60,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "(LVL 15)",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "(LVL 15)",
+          "x": 60,
+          "y": 197
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "(LVL 8)",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "(LVL 8)",
+          "x": 60,
+          "y": 134
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dash.png",
+          "use1Xscale": false,
+          "name": "dash.png",
+          "x": 6,
+          "y": 170
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

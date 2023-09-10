@@ -1,0 +1,92 @@
+{
+  "_fv": 34,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "dp1.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "Ability1Over"
+          },
+          "name": "dp1.png",
+          "x": 6,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ready",
+          "color": {
+            "value": -13369600,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "DpReady"
+          },
+          "name": "Ready",
+          "x": 24,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dp2.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "Ability2Over"
+          },
+          "name": "dp2.png",
+          "x": 6,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dp3.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "Ability3Over"
+          },
+          "name": "dp3.png",
+          "x": 6,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Not Ready",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "DpNOTReady"
+          },
+          "name": "Not Ready",
+          "x": 15,
+          "y": 80
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "IsHoldingdagger"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

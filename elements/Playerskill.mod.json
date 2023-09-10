@@ -1,0 +1,82 @@
+{
+  "_fv": 34,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Lvl Up Weapon in hand",
+          "onClick": {
+            "name": "DaggerLVLupgui"
+          },
+          "width": 92,
+          "height": 20,
+          "name": "Lvl Up Weapon in hand",
+          "x": 159,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "[Skill Tree]",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "[Skill Tree]",
+          "x": 177,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Show Player Stats",
+          "width": 93,
+          "height": 20,
+          "name": "Show Player Stats",
+          "x": 159,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Gathering",
+          "width": 72,
+          "height": 20,
+          "name": "Gathering",
+          "x": 159,
+          "y": 125
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Professions",
+          "width": 82,
+          "height": 20,
+          "name": "Professions",
+          "x": 159,
+          "y": 152
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

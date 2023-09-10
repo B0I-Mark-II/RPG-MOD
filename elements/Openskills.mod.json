@@ -1,0 +1,12 @@
+{
+  "_fv": 34,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "0",
+    "keyBindingName": "Openskills",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "OpenSkilltree"
+    }
+  }
+}

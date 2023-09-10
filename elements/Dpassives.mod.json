@@ -1,0 +1,315 @@
+{
+  "_fv": 34,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 423,
+    "height": 212,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "dp1.png",
+          "use1Xscale": false,
+          "name": "dp1.png",
+          "x": 6,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dp2.png",
+          "use1Xscale": false,
+          "name": "dp2.png",
+          "x": 6,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dp3.png",
+          "use1Xscale": false,
+          "name": "dp3.png",
+          "x": 6,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Attacks Apply A Stacking Bleed",
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "name": "Attacks Apply A Stacking Bleed",
+          "x": 123,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Deals %Health Damage (Stacks 3X)",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "Deals %Health Damage (Stacks 3X)",
+          "x": 123,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Every Few Attacks You Heal",
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "name": "Every Few Attacks You Heal",
+          "x": 123,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Heals % Of Your Max Hp",
+          "color": {
+            "value": -13382656,
+            "falpha": 0.0
+          },
+          "name": "Heals % Of Your Max Hp",
+          "x": 123,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Your First Attack Deals Bonus Damage ",
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "name": "Your First Attack Deals Bonus Damage ",
+          "x": 123,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Deals True Damage",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Deals True Damage",
+          "x": 123,
+          "y": 179
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Use",
+          "onClick": {
+            "name": "Dp1press"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "Use",
+          "x": 339,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Use",
+          "onClick": {
+            "name": "Dp2press"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "Use",
+          "x": 339,
+          "y": 125
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Use",
+          "onClick": {
+            "name": "Dp3press"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "Use",
+          "x": 339,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "5 Sec Cooldown",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "5 Sec Cooldown",
+          "x": 321,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "7 Sec Cooldown",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "7 Sec Cooldown",
+          "x": 321,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "30 Sec Cooldown",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "30 Sec Cooldown",
+          "x": 321,
+          "y": 206
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "[Cooldown]",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "[Cooldown]",
+          "x": 330,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "[Ability Description]",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "[Ability Description]",
+          "x": 141,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "[Ability Name]",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "[Ability Name]",
+          "x": 24,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Backstab",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Backstab",
+          "x": 60,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Life Leech",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Life Leech",
+          "x": 60,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Open Wounds",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Open Wounds",
+          "x": 60,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "(LVL 7)",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "(LVL 7)",
+          "x": 60,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "(LVL 10)",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "(LVL 10)",
+          "x": 60,
+          "y": 197
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}
