@@ -13,12 +13,12 @@
       {
         "type": "label",
         "data": {
-          "text": "Dagger LVL = <VAR:integer:Dagger_lvl>/50",
+          "text": "Weapon LVL = <VAR:integer:Dagger_lvl>/50",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "Dagger LVL = <VAR:integer:Dagger_lvl>/50",
+          "name": "Weapon LVL = <VAR:integer:Dagger_lvl>/50",
           "x": 15,
           "y": 8
         }
@@ -30,7 +30,7 @@
           "width": 72,
           "height": 20,
           "name": "Prev Page",
-          "x": 24,
+          "x": 15,
           "y": 206
         }
       },
@@ -41,7 +41,7 @@
           "width": 72,
           "height": 20,
           "name": "Next Page",
-          "x": 105,
+          "x": 96,
           "y": 206
         }
       },
@@ -55,7 +55,7 @@
           "width": 61,
           "height": 20,
           "name": "LEVEL UP!",
-          "x": 339,
+          "x": 348,
           "y": 206
         }
       },
@@ -66,21 +66,8 @@
           "width": 93,
           "height": 20,
           "name": "Select Skills",
-          "x": 240,
+          "x": 249,
           "y": 206
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "[DAGGER LVL 1]",
-          "color": {
-            "value": -65536,
-            "falpha": 0.0
-          },
-          "name": "[DAGGER LVL 1]",
-          "x": 15,
-          "y": 26
         }
       },
       {
@@ -99,447 +86,67 @@
       {
         "type": "label",
         "data": {
-          "text": "[DAGGER LVL 1]",
-          "color": {
-            "value": -16711936,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "DAGGERSKILLTREELVL1"
-          },
-          "name": "[DAGGER LVL 1]",
-          "x": 15,
-          "y": 26
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "Passive Skill = First Strike",
-          "color": {
-            "value": -1,
-            "falpha": 0.0
-          },
-          "name": "Passive Skill = First Strike",
-          "x": 249,
-          "y": 26
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "Weapons = Beginners Dagger",
-          "color": {
-            "value": -16777216,
-            "falpha": 0.0
-          },
-          "name": "Weapons = Beginners Dagger",
-          "x": 105,
-          "y": 26
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "Skill 1 = Rush",
-          "color": {
-            "value": -1,
-            "falpha": 0.0
-          },
-          "name": "Skill 1 = Rush",
-          "x": 105,
-          "y": 62
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "[DAGGER LVL 5]",
-          "color": {
-            "value": -65536,
-            "falpha": 0.0
-          },
-          "name": "[DAGGER LVL 5]",
-          "x": 15,
-          "y": 98
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "Weapons = Novices Dagger",
-          "color": {
-            "value": -16777216,
-            "falpha": 0.0
-          },
-          "name": "Weapons = Novices Dagger",
-          "x": 105,
-          "y": 98
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "Skills = Throwing Blade",
-          "color": {
-            "value": -1,
-            "falpha": 0.0
-          },
-          "name": "Skills = Throwing Blade",
-          "x": 240,
-          "y": 98
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "[DAGGER LVL 7]",
-          "color": {
-            "value": -65536,
-            "falpha": 0.0
-          },
-          "name": "[DAGGER LVL 7]",
-          "x": 15,
-          "y": 134
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "Passive Skill = Life Leech",
-          "color": {
-            "value": -1,
-            "falpha": 0.0
-          },
-          "name": "Passive Skill = Life Leech",
-          "x": 105,
-          "y": 116
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "[DAGGER LVL 9]",
-          "color": {
-            "value": -65536,
-            "falpha": 0.0
-          },
-          "name": "[DAGGER LVL 9]",
-          "x": 15,
-          "y": 170
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "[DAGGER LVL 2]",
-          "color": {
-            "value": -65536,
-            "falpha": 0.0
-          },
-          "name": "[DAGGER LVL 2]",
-          "x": 15,
-          "y": 44
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "[DAGGER LVL 4]",
-          "color": {
-            "value": -65536,
-            "falpha": 0.0
-          },
-          "name": "[DAGGER LVL 4]",
-          "x": 15,
-          "y": 80
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "[DAGGER LVL 6]",
-          "color": {
-            "value": -65536,
-            "falpha": 0.0
-          },
-          "name": "[DAGGER LVL 6]",
-          "x": 15,
-          "y": 116
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "[DAGGER LVL 10]",
-          "color": {
-            "value": -65536,
-            "falpha": 0.0
-          },
-          "name": "[DAGGER LVL 10]",
-          "x": 15,
-          "y": 188
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "Skill 2 = Throwing Knife",
-          "color": {
-            "value": -1,
-            "falpha": 0.0
-          },
-          "name": "Skill 2 = Throwing Knife",
-          "x": 105,
-          "y": 152
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "Weapons = Apprentices Dagger",
-          "color": {
-            "value": -16777216,
-            "falpha": 0.0
-          },
-          "name": "Weapons = Apprentices Dagger",
-          "x": 105,
-          "y": 188
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "Stats = Move Speed Increese To Daggers",
-          "color": {
-            "value": -16711681,
-            "falpha": 0.0
-          },
-          "name": "Stats = Move Speed Increese To Daggers",
-          "x": 105,
-          "y": 44
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "Stats = Attack Damage Increese To Daggers",
-          "color": {
-            "value": -16711681,
-            "falpha": 0.0
-          },
-          "name": "Stats = Attack Damage Increese To Daggers",
-          "x": 105,
-          "y": 80
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "[DAGGER LVL 8]",
-          "color": {
-            "value": -65536,
-            "falpha": 0.0
-          },
-          "name": "[DAGGER LVL 8]",
-          "x": 15,
-          "y": 152
-        }
-      },
-      {
-        "type": "label",
-        "data": {
           "text": "Page 1/5",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
           "name": "Page 1/5",
-          "x": 186,
+          "x": 195,
           "y": 215
         }
       },
       {
-        "type": "label",
+        "type": "image",
         "data": {
-          "text": "Stats = Health Increse To Assassin Armour",
-          "color": {
-            "value": -16711681,
-            "falpha": 0.0
-          },
-          "name": "Stats = Health Increse To Assassin Armour",
-          "x": 105,
+          "image": "lvl.png",
+          "use1Xscale": true,
+          "name": "lvl.png",
+          "x": 15,
           "y": 134
         }
       },
       {
-        "type": "label",
+        "type": "image",
         "data": {
-          "text": "Stats = exp Increese While Holding Dagger",
-          "color": {
-            "value": -16711681,
-            "falpha": 0.0
-          },
-          "name": "Stats = exp Increese While Holding Dagger",
-          "x": 105,
-          "y": 170
+          "image": "lvl.png",
+          "use1Xscale": true,
+          "name": "lvl.png",
+          "x": 231,
+          "y": 26
         }
       },
       {
-        "type": "label",
+        "type": "image",
         "data": {
-          "text": "[DAGGER LVL 2]",
-          "color": {
-            "value": -16711936,
-            "falpha": 0.0
-          },
+          "image": "lvl.png",
+          "use1Xscale": true,
+          "name": "lvl.png",
+          "x": 231,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "lvl_2.png",
+          "use1Xscale": true,
           "displayCondition": {
             "name": "DAGGERSKILLTREELVL2"
           },
-          "name": "[DAGGER LVL 2]",
-          "x": 15,
-          "y": 44
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "[DAGGER LVL 3]",
-          "color": {
-            "value": -65536,
-            "falpha": 0.0
-          },
-          "name": "[DAGGER LVL 3]",
-          "x": 15,
-          "y": 62
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "[DAGGER LVL 3]",
-          "color": {
-            "value": -16711936,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "DAGGERSKILLTREELVL3"
-          },
-          "name": "[DAGGER LVL 3]",
-          "x": 15,
-          "y": 62
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "[DAGGER LVL 4]",
-          "color": {
-            "value": -16711936,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "DAGGERSKILLTREELVL4"
-          },
-          "name": "[DAGGER LVL 4]",
+          "name": "lvl_2.png",
           "x": 15,
           "y": 80
         }
       },
       {
-        "type": "label",
+        "type": "image",
         "data": {
-          "text": "[DAGGER LVL 5]",
-          "color": {
-            "value": -16711936,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "DAGGERSKILLTREELVL5"
-          },
-          "name": "[DAGGER LVL 5]",
+          "image": "lvl_2.1.png",
+          "use1Xscale": true,
+          "name": "lvl_2.1.png",
           "x": 15,
-          "y": 98
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "[DAGGER LVL 6]",
-          "color": {
-            "value": -16711936,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "DAGGERSKILLTREELVL6"
-          },
-          "name": "[DAGGER LVL 6]",
-          "x": 15,
-          "y": 116
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "[DAGGER LVL 7]",
-          "color": {
-            "value": -16711936,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "DAGGERSKILLTREELVL7"
-          },
-          "name": "[DAGGER LVL 7]",
-          "x": 15,
-          "y": 134
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "[DAGGER LVL 8]",
-          "color": {
-            "value": -16711936,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "DAGGERSKILLTREELVL8"
-          },
-          "name": "[DAGGER LVL 8]",
-          "x": 15,
-          "y": 152
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "[DAGGER LVL 9]",
-          "color": {
-            "value": -16711936,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "DAGGERSKILLTREELVL9"
-          },
-          "name": "[DAGGER LVL 9]",
-          "x": 15,
-          "y": 170
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "[DAGGER LVL 10]",
-          "color": {
-            "value": -16711936,
-            "falpha": 0.0
-          },
-          "displayCondition": {
-            "name": "DAGGERSKILLTREELVL10"
-          },
-          "name": "[DAGGER LVL 10]",
-          "x": 15,
-          "y": 188
+          "y": 80
         }
       }
     ],
