@@ -79,6 +79,7 @@ public class RpgskillModVariables {
 			nbt.putDouble("Dagger_lvl", instance.Dagger_lvl);
 			nbt.putDouble("Total_lvl", instance.Total_lvl);
 			nbt.putDouble("Skill_points", instance.Skill_points);
+			nbt.putBoolean("CanGather", instance.CanGather);
 			return nbt;
 		}
 
@@ -93,6 +94,7 @@ public class RpgskillModVariables {
 			instance.Dagger_lvl = nbt.getDouble("Dagger_lvl");
 			instance.Total_lvl = nbt.getDouble("Total_lvl");
 			instance.Skill_points = nbt.getDouble("Skill_points");
+			instance.CanGather = nbt.getBoolean("CanGather");
 		}
 	}
 
@@ -105,6 +107,7 @@ public class RpgskillModVariables {
 		public double Dagger_lvl = 1.0;
 		public double Total_lvl = 1.0;
 		public double Skill_points = 0;
+		public boolean CanGather = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayerEntity)
@@ -148,6 +151,7 @@ public class RpgskillModVariables {
 		clone.Total_lvl = original.Total_lvl;
 		clone.Skill_points = original.Skill_points;
 		if (!event.isWasDeath()) {
+			clone.CanGather = original.CanGather;
 		}
 	}
 
@@ -181,6 +185,7 @@ public class RpgskillModVariables {
 					variables.Dagger_lvl = message.data.Dagger_lvl;
 					variables.Total_lvl = message.data.Total_lvl;
 					variables.Skill_points = message.data.Skill_points;
+					variables.CanGather = message.data.CanGather;
 				}
 			});
 			context.setPacketHandled(true);

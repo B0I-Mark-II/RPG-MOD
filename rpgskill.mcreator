@@ -7,7 +7,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dpassives",
-      "path": "~/Skilltree/guis/is holding Dagger/Select Skills"
+      "path": "~/Skills And Weapons/Skilltree/guis/is holding Dagger/Select Skills"
     },
     {
       "name": "Dp1press",
@@ -24,7 +24,7 @@
           }
         ]
       },
-      "path": "~/Skilltree/functions/Dagger/Passives/skillchecker"
+      "path": "~/Skills And Weapons/Skilltree/functions/Dagger/Passives/skillchecker"
     },
     {
       "name": "Dp2press",
@@ -41,7 +41,7 @@
           }
         ]
       },
-      "path": "~/Skilltree/functions/Dagger/Passives/skillchecker"
+      "path": "~/Skills And Weapons/Skilltree/functions/Dagger/Passives/skillchecker"
     },
     {
       "name": "Dp3press",
@@ -58,7 +58,7 @@
           }
         ]
       },
-      "path": "~/Skilltree/functions/Dagger/Passives/skillchecker"
+      "path": "~/Skills And Weapons/Skilltree/functions/Dagger/Passives/skillchecker"
     },
     {
       "name": "DaggerSword",
@@ -67,7 +67,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dagger_sword",
-      "path": "~/Weapons/Dagger/resorces"
+      "path": "~/Skills And Weapons/Weapons/Dagger/resorces"
     },
     {
       "name": "BleedingT11",
@@ -76,7 +76,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bleeding_t_11",
-      "path": "~/Weapons/Dagger/Abilitys/Teir 1/Bleed Debuff"
+      "path": "~/Skills And Weapons/Weapons/Dagger/Abilitys/Teir 1/Bleed Debuff"
     },
     {
       "name": "BleedingT12",
@@ -85,7 +85,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bleeding_t_12",
-      "path": "~/Weapons/Dagger/Abilitys/Teir 1/Bleed Debuff"
+      "path": "~/Skills And Weapons/Weapons/Dagger/Abilitys/Teir 1/Bleed Debuff"
     },
     {
       "name": "BleedingT13",
@@ -94,7 +94,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bleeding_t_13",
-      "path": "~/Weapons/Dagger/Abilitys/Teir 1/Bleed Debuff"
+      "path": "~/Skills And Weapons/Weapons/Dagger/Abilitys/Teir 1/Bleed Debuff"
     },
     {
       "name": "Daggerpassiveonhit",
@@ -115,7 +115,7 @@
           }
         ]
       },
-      "path": "~/Weapons/Dagger/Abilitys"
+      "path": "~/Skills And Weapons/Weapons/Dagger/Abilitys"
     },
     {
       "name": "DP1Cooldown",
@@ -124,7 +124,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dp_1_cooldown",
-      "path": "~/Weapons/Dagger/Abilitys"
+      "path": "~/Skills And Weapons/Weapons/Dagger/Abilitys"
     },
     {
       "name": "DP1CooldownOnEffectActiveTick",
@@ -141,7 +141,7 @@
           }
         ]
       },
-      "path": "~/Weapons/Dagger/Abilitys/passive"
+      "path": "~/Skills And Weapons/Weapons/Dagger/Abilitys/passive"
     },
     {
       "name": "BleedingT11OnEffectActiveTick",
@@ -158,7 +158,7 @@
           }
         ]
       },
-      "path": "~/Weapons/Dagger/Abilitys/Teir 1/Bleed Debuff"
+      "path": "~/Skills And Weapons/Weapons/Dagger/Abilitys/Teir 1/Bleed Debuff"
     },
     {
       "name": "BleedingT12START",
@@ -175,7 +175,7 @@
           }
         ]
       },
-      "path": "~/Weapons/Dagger/Abilitys/Teir 1/Bleed Debuff"
+      "path": "~/Skills And Weapons/Weapons/Dagger/Abilitys/Teir 1/Bleed Debuff"
     },
     {
       "name": "BleedingT13Effect",
@@ -192,7 +192,7 @@
           }
         ]
       },
-      "path": "~/Weapons/Dagger/Abilitys/Teir 1/Bleed Debuff"
+      "path": "~/Skills And Weapons/Weapons/Dagger/Abilitys/Teir 1/Bleed Debuff"
     },
     {
       "name": "Daggercds",
@@ -201,7 +201,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "daggercds",
-      "path": "~/Weapons/Dagger/overlay"
+      "path": "~/Skills And Weapons/Weapons/Dagger/overlay"
     },
     {
       "name": "IsHoldingdagger",
@@ -219,7 +219,7 @@
           }
         ]
       },
-      "path": "~/Weapons/Dagger/overlay"
+      "path": "~/Skills And Weapons/Weapons/Dagger/overlay"
     },
     {
       "name": "Ability1Over",
@@ -237,7 +237,7 @@
           }
         ]
       },
-      "path": "~/Weapons/Dagger/overlay/IconCheck"
+      "path": "~/Skills And Weapons/Weapons/Dagger/overlay/IconCheck"
     },
     {
       "name": "Ability2Over",
@@ -255,7 +255,7 @@
           }
         ]
       },
-      "path": "~/Weapons/Dagger/overlay/IconCheck"
+      "path": "~/Skills And Weapons/Weapons/Dagger/overlay/IconCheck"
     },
     {
       "name": "Ability3Over",
@@ -273,7 +273,7 @@
           }
         ]
       },
-      "path": "~/Weapons/Dagger/overlay/IconCheck"
+      "path": "~/Skills And Weapons/Weapons/Dagger/overlay/IconCheck"
     },
     {
       "name": "DpReady",
@@ -291,7 +291,7 @@
           }
         ]
       },
-      "path": "~/Weapons/Dagger/overlay/Ready/Passive"
+      "path": "~/Skills And Weapons/Weapons/Dagger/overlay/Ready/Passive"
     },
     {
       "name": "DpNOTReady",
@@ -309,7 +309,7 @@
           }
         ]
       },
-      "path": "~/Weapons/Dagger/overlay/Ready/Passive"
+      "path": "~/Skills And Weapons/Weapons/Dagger/overlay/Ready/Passive"
     },
     {
       "name": "Daggerlvlup",
@@ -326,7 +326,7 @@
           }
         ]
       },
-      "path": "~/Skilltree/functions/Dagger"
+      "path": "~/Skills And Weapons/Skilltree/functions/Dagger"
     },
     {
       "name": "DaggerLVL1CHECK",
@@ -344,7 +344,7 @@
           }
         ]
       },
-      "path": "~/Skilltree/functions/Dagger/Dagger lvl Checker"
+      "path": "~/Skills And Weapons/Skilltree/functions/Dagger/Dagger lvl Checker"
     },
     {
       "name": "DaggerLvL2check",
@@ -362,7 +362,7 @@
           }
         ]
       },
-      "path": "~/Skilltree/functions/Dagger/Dagger lvl Checker"
+      "path": "~/Skills And Weapons/Skilltree/functions/Dagger/Dagger lvl Checker"
     },
     {
       "name": "OpenSkilltree",
@@ -395,7 +395,7 @@
           }
         ]
       },
-      "path": "~/Skilltree/functions/opengui"
+      "path": "~/Skills And Weapons/Skilltree/functions/opengui"
     },
     {
       "name": "Openskills",
@@ -404,7 +404,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "openskills",
-      "path": "~/binds"
+      "path": "~/Skills And Weapons/binds"
     },
     {
       "name": "DaggerLVLupgui",
@@ -437,7 +437,7 @@
           }
         ]
       },
-      "path": "~/Skilltree/functions/opengui"
+      "path": "~/Skills And Weapons/Skilltree/functions/opengui"
     },
     {
       "name": "Dability1",
@@ -446,7 +446,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dability_1",
-      "path": "~/Skilltree/guis/is holding Dagger/Select Skills"
+      "path": "~/Skills And Weapons/Skilltree/guis/is holding Dagger/Select Skills"
     },
     {
       "name": "DaggerPage1",
@@ -455,7 +455,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dagger_page_1",
-      "path": "~/Skilltree/guis/is holding Dagger"
+      "path": "~/Skills And Weapons/Skilltree/guis/is holding Dagger"
     },
     {
       "name": "Playerskill",
@@ -464,7 +464,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "playerskill",
-      "path": "~/Skilltree/guis"
+      "path": "~/Skills And Weapons/Skilltree/guis"
     },
     {
       "name": "Skillpointcalc",
@@ -481,7 +481,7 @@
           }
         ]
       },
-      "path": "~/Skilltree/guis"
+      "path": "~/Skills And Weapons/Skilltree/guis"
     },
     {
       "name": "DAGGERSKILLTREELVL1",
@@ -499,7 +499,7 @@
           }
         ]
       },
-      "path": "~/Skilltree/guis/is holding Dagger/DAGGERSKILLTREELVL"
+      "path": "~/Skills And Weapons/Skilltree/guis/is holding Dagger/DAGGERSKILLTREELVL"
     },
     {
       "name": "DAGGERSKILLTREELVL2",
@@ -517,7 +517,7 @@
           }
         ]
       },
-      "path": "~/Skilltree/guis/is holding Dagger/DAGGERSKILLTREELVL"
+      "path": "~/Skills And Weapons/Skilltree/guis/is holding Dagger/DAGGERSKILLTREELVL"
     },
     {
       "name": "DAGGERSKILLTREELVL3",
@@ -535,7 +535,7 @@
           }
         ]
       },
-      "path": "~/Skilltree/guis/is holding Dagger/DAGGERSKILLTREELVL"
+      "path": "~/Skills And Weapons/Skilltree/guis/is holding Dagger/DAGGERSKILLTREELVL"
     },
     {
       "name": "DAGGERSKILLTREELVL4",
@@ -553,7 +553,7 @@
           }
         ]
       },
-      "path": "~/Skilltree/guis/is holding Dagger/DAGGERSKILLTREELVL"
+      "path": "~/Skills And Weapons/Skilltree/guis/is holding Dagger/DAGGERSKILLTREELVL"
     },
     {
       "name": "DAGGERSKILLTREELVL5",
@@ -571,7 +571,7 @@
           }
         ]
       },
-      "path": "~/Skilltree/guis/is holding Dagger/DAGGERSKILLTREELVL"
+      "path": "~/Skills And Weapons/Skilltree/guis/is holding Dagger/DAGGERSKILLTREELVL"
     },
     {
       "name": "DAGGERSKILLTREELVL6",
@@ -589,7 +589,7 @@
           }
         ]
       },
-      "path": "~/Skilltree/guis/is holding Dagger/DAGGERSKILLTREELVL"
+      "path": "~/Skills And Weapons/Skilltree/guis/is holding Dagger/DAGGERSKILLTREELVL"
     },
     {
       "name": "DAGGERSKILLTREELVL7",
@@ -607,7 +607,7 @@
           }
         ]
       },
-      "path": "~/Skilltree/guis/is holding Dagger/DAGGERSKILLTREELVL"
+      "path": "~/Skills And Weapons/Skilltree/guis/is holding Dagger/DAGGERSKILLTREELVL"
     },
     {
       "name": "DAGGERSKILLTREELVL8",
@@ -625,7 +625,7 @@
           }
         ]
       },
-      "path": "~/Skilltree/guis/is holding Dagger/DAGGERSKILLTREELVL"
+      "path": "~/Skills And Weapons/Skilltree/guis/is holding Dagger/DAGGERSKILLTREELVL"
     },
     {
       "name": "DAGGERSKILLTREELVL9",
@@ -643,7 +643,7 @@
           }
         ]
       },
-      "path": "~/Skilltree/guis/is holding Dagger/DAGGERSKILLTREELVL"
+      "path": "~/Skills And Weapons/Skilltree/guis/is holding Dagger/DAGGERSKILLTREELVL"
     },
     {
       "name": "DAGGERSKILLTREELVL10",
@@ -661,7 +661,62 @@
           }
         ]
       },
-      "path": "~/Skilltree/guis/is holding Dagger/DAGGERSKILLTREELVL"
+      "path": "~/Skills And Weapons/Skilltree/guis/is holding Dagger/DAGGERSKILLTREELVL"
+    },
+    {
+      "name": "RegenIron",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "regen_iron",
+      "path": "~/Gathering/ores/Iron"
+    },
+    {
+      "name": "BeginnersPickaxe",
+      "type": "tool",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beginners_pickaxe",
+      "path": "~/Gathering/ores/Iron"
+    },
+    {
+      "name": "BeginnersPickaxeRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beginners_pickaxe_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gathering/ores/Iron"
     }
   ],
   "variable_elements": [
@@ -712,37 +767,85 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
+    },
+    {
+      "name": "CanGather",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
     }
   ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "effect.bleeding_t_13": "Bleeding 3",
       "item.rpgskill.dagger_sword": "Dagger Sword",
+      "key.rpgskill.openskills": "Openskills",
+      "effect.bleeding_t_13": "Bleeding 3",
       "effect.bleeding_t_12": "Bleeding 2",
       "effect.bleeding_t_11": "Bleeding 1",
       "effect.dp_1_cooldown": "Dagger Passive Cooldown",
-      "key.rpgskill.openskills": "Openskills"
+      "item.rpgskill.beginners_pickaxe": "Beginners Pickaxe",
+      "block.rpgskill.regen_iron": "Regen Iron"
     }
   },
   "foldersRoot": {
     "name": "~",
     "children": [
       {
-        "name": "Skilltree",
+        "name": "Skills And Weapons",
         "children": [
           {
-            "name": "guis",
+            "name": "binds",
+            "children": []
+          },
+          {
+            "name": "Overlay",
+            "children": []
+          },
+          {
+            "name": "Weapons",
             "children": [
               {
-                "name": "is holding Dagger",
+                "name": "Dagger",
                 "children": [
                   {
-                    "name": "Select Skills",
-                    "children": []
+                    "name": "Abilitys",
+                    "children": [
+                      {
+                        "name": "passive",
+                        "children": []
+                      },
+                      {
+                        "name": "Teir 1",
+                        "children": [
+                          {
+                            "name": "Bleed Debuff",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
                   },
                   {
-                    "name": "DAGGERSKILLTREELVL",
+                    "name": "overlay",
+                    "children": [
+                      {
+                        "name": "IconCheck",
+                        "children": []
+                      },
+                      {
+                        "name": "Ready",
+                        "children": [
+                          {
+                            "name": "Passive",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "resorces",
                     "children": []
                   }
                 ]
@@ -750,91 +853,86 @@
             ]
           },
           {
-            "name": "functions",
+            "name": "Skilltree",
             "children": [
               {
-                "name": "Dagger",
+                "name": "guis",
                 "children": [
                   {
-                    "name": "Passives",
+                    "name": "is holding Dagger",
                     "children": [
                       {
-                        "name": "skillchecker",
+                        "name": "Select Skills",
+                        "children": []
+                      },
+                      {
+                        "name": "DAGGERSKILLTREELVL",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "functions",
+                "children": [
+                  {
+                    "name": "Dagger",
+                    "children": [
+                      {
+                        "name": "Passives",
+                        "children": [
+                          {
+                            "name": "skillchecker",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Dagger lvl Checker",
                         "children": []
                       }
                     ]
                   },
                   {
-                    "name": "Dagger lvl Checker",
+                    "name": "opengui",
                     "children": []
                   }
                 ]
-              },
-              {
-                "name": "opengui",
-                "children": []
               }
             ]
           }
         ]
       },
       {
-        "name": "Weapons",
+        "name": "Gathering",
         "children": [
           {
-            "name": "Dagger",
+            "name": "ores",
             "children": [
               {
-                "name": "Abilitys",
-                "children": [
-                  {
-                    "name": "passive",
-                    "children": []
-                  },
-                  {
-                    "name": "Teir 1",
-                    "children": [
-                      {
-                        "name": "Bleed Debuff",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "overlay",
-                "children": [
-                  {
-                    "name": "IconCheck",
-                    "children": []
-                  },
-                  {
-                    "name": "Ready",
-                    "children": [
-                      {
-                        "name": "Passive",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "resorces",
+                "name": "Iron",
                 "children": []
               }
             ]
+          },
+          {
+            "name": "wood",
+            "children": []
+          },
+          {
+            "name": "crystal",
+            "children": []
+          },
+          {
+            "name": "hide",
+            "children": []
+          },
+          {
+            "name": "cloth",
+            "children": []
           }
         ]
-      },
-      {
-        "name": "Overlay",
-        "children": []
-      },
-      {
-        "name": "binds",
-        "children": []
       }
     ]
   },
