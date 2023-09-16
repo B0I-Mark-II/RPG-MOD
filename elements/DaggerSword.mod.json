@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "dagger_sword",
+    "texture": "minecraft_dungeons_dagger_texture",
     "customModelName": "Normal",
     "name": "Dagger Sword",
     "specialInfo": [],

@@ -1,0 +1,8 @@
+{
+  "parent": "rpgskill:custom/sticks",
+  "textures": {
+    "all": "rpgskill:blocks/wood",
+    "particle": "rpgskill:blocks/wood",
+    "0": "rpgskill:blocks/wood"
+  }
+}

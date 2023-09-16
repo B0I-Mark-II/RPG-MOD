@@ -80,6 +80,8 @@ public class RpgskillModVariables {
 			nbt.putDouble("Total_lvl", instance.Total_lvl);
 			nbt.putDouble("Skill_points", instance.Skill_points);
 			nbt.putBoolean("CanGather", instance.CanGather);
+			nbt.putDouble("Player_Random", instance.Player_Random);
+			nbt.putBoolean("Double_Drops", instance.Double_Drops);
 			return nbt;
 		}
 
@@ -95,6 +97,8 @@ public class RpgskillModVariables {
 			instance.Total_lvl = nbt.getDouble("Total_lvl");
 			instance.Skill_points = nbt.getDouble("Skill_points");
 			instance.CanGather = nbt.getBoolean("CanGather");
+			instance.Player_Random = nbt.getDouble("Player_Random");
+			instance.Double_Drops = nbt.getBoolean("Double_Drops");
 		}
 	}
 
@@ -108,6 +112,8 @@ public class RpgskillModVariables {
 		public double Total_lvl = 1.0;
 		public double Skill_points = 0;
 		public boolean CanGather = false;
+		public double Player_Random = 0;
+		public boolean Double_Drops = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayerEntity)
@@ -152,6 +158,8 @@ public class RpgskillModVariables {
 		clone.Skill_points = original.Skill_points;
 		if (!event.isWasDeath()) {
 			clone.CanGather = original.CanGather;
+			clone.Player_Random = original.Player_Random;
+			clone.Double_Drops = original.Double_Drops;
 		}
 	}
 
@@ -186,6 +194,8 @@ public class RpgskillModVariables {
 					variables.Total_lvl = message.data.Total_lvl;
 					variables.Skill_points = message.data.Skill_points;
 					variables.CanGather = message.data.CanGather;
+					variables.Player_Random = message.data.Player_Random;
+					variables.Double_Drops = message.data.Double_Drops;
 				}
 			});
 			context.setPacketHandled(true);

@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "rpgskill:items/dagger_sword"
+    "layer0": "rpgskill:items/minecraft_dungeons_dagger_texture"
   }
 }

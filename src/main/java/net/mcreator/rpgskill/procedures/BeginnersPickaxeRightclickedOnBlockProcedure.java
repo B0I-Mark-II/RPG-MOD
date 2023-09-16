@@ -6,6 +6,7 @@ import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.common.MinecraftForge;
 
 import net.minecraft.world.IWorld;
+import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
@@ -14,10 +15,14 @@ import net.minecraft.entity.Entity;
 import net.minecraft.block.Blocks;
 
 import net.mcreator.rpgskill.block.RegenIronBlock;
+import net.mcreator.rpgskill.RpgskillModVariables;
 import net.mcreator.rpgskill.RpgskillMod;
 
+import java.util.stream.Stream;
 import java.util.Random;
 import java.util.Map;
+import java.util.HashMap;
+import java.util.AbstractMap;
 
 public class BeginnersPickaxeRightclickedOnBlockProcedure {
 
@@ -86,6 +91,24 @@ public class BeginnersPickaxeRightclickedOnBlockProcedure {
 						_setstack.setCount((int) 1);
 						ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
 					}
+					DoubleDropProcedure.executeProcedure(
+							Stream.of(new AbstractMap.SimpleEntry<>("entity", entity), new AbstractMap.SimpleEntry<>("itemstack", itemstack))
+									.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+					if ((entity.getCapability(RpgskillModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+							.orElse(new RpgskillModVariables.PlayerVariables())).Double_Drops == true) {
+						if (entity instanceof PlayerEntity) {
+							ItemStack _setstack = new ItemStack(Items.IRON_INGOT);
+							_setstack.setCount((int) 1);
+							ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
+						}
+						{
+							boolean _setval = (false);
+							entity.getCapability(RpgskillModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+								capability.Double_Drops = _setval;
+								capability.syncPlayerVariables(entity);
+							});
+						}
+					}
 					MinecraftForge.EVENT_BUS.unregister(this);
 				}
 			}.start(world, (int) 20);
@@ -123,6 +146,12 @@ public class BeginnersPickaxeRightclickedOnBlockProcedure {
 			}
 			if (entity instanceof PlayerEntity)
 				((PlayerEntity) entity).getCooldownTracker().setCooldown(itemstack.getItem(), (int) 60);
+		} else {
+			if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
+				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("Unable To Gather Resource"), (true));
+			}
+			if (entity instanceof PlayerEntity)
+				((PlayerEntity) entity).getCooldownTracker().setCooldown(itemstack.getItem(), (int) 30);
 		}
 	}
 }

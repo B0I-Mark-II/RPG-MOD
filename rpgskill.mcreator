@@ -670,7 +670,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "regen_iron",
-      "path": "~/Gathering/ores/Iron"
+      "path": "~/Gathering/ores/Scattered Ore"
     },
     {
       "name": "BeginnersPickaxe",
@@ -679,7 +679,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "beginners_pickaxe",
-      "path": "~/Gathering/ores/Iron"
+      "path": "~/Gathering/Pebbles And Sticks"
     },
     {
       "name": "BeginnersPickaxeRightclickedOnBlock",
@@ -716,7 +716,121 @@
           }
         ]
       },
-      "path": "~/Gathering/ores/Iron"
+      "path": "~/Gathering/ores/Scattered Ore"
+    },
+    {
+      "name": "MiningProficency",
+      "type": "enchantment",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mining_proficency",
+      "path": "~/Gathering/Enchantments"
+    },
+    {
+      "name": "DoubleDrop",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "double_drop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Gathering"
+    },
+    {
+      "name": "Pebble",
+      "type": "plant",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pebble",
+      "path": "~/Gathering/Pebbles And Sticks"
+    },
+    {
+      "name": "PebbleRightClick",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pebble_right_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gathering/Pebbles And Sticks"
+    },
+    {
+      "name": "Stick",
+      "type": "plant",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stick",
+      "path": "~/Gathering/Pebbles And Sticks"
+    },
+    {
+      "name": "StickRightClick",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stick_right_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gathering/Pebbles And Sticks"
     }
   ],
   "variable_elements": [
@@ -773,19 +887,34 @@
       "type": "logic",
       "scope": "player_lifetime",
       "value": "false"
+    },
+    {
+      "name": "Player_Random",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "Double_Drops",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
     }
   ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.rpgskill.dagger_sword": "Dagger Sword",
-      "key.rpgskill.openskills": "Openskills",
       "effect.bleeding_t_13": "Bleeding 3",
+      "item.rpgskill.dagger_sword": "Dagger Sword",
       "effect.bleeding_t_12": "Bleeding 2",
       "effect.bleeding_t_11": "Bleeding 1",
       "effect.dp_1_cooldown": "Dagger Passive Cooldown",
+      "block.rpgskill.pebble": "Pebble",
       "item.rpgskill.beginners_pickaxe": "Beginners Pickaxe",
-      "block.rpgskill.regen_iron": "Regen Iron"
+      "block.rpgskill.regen_iron": "Regen Iron",
+      "block.rpgskill.stick": "Sticks",
+      "enchantment.rpgskill.mining_proficency": "Gathering Proficency",
+      "key.rpgskill.openskills": "Openskills"
     }
   },
   "foldersRoot": {
@@ -911,7 +1040,7 @@
             "name": "ores",
             "children": [
               {
-                "name": "Iron",
+                "name": "Scattered Ore",
                 "children": []
               }
             ]
@@ -930,6 +1059,14 @@
           },
           {
             "name": "cloth",
+            "children": []
+          },
+          {
+            "name": "Enchantments",
+            "children": []
+          },
+          {
+            "name": "Pebbles And Sticks",
             "children": []
           }
         ]

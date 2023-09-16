@@ -1,10 +1,13 @@
 {
-  "item.rpgskill.dagger_sword": "Dagger Sword",
-  "key.rpgskill.openskills": "Openskills",
   "effect.bleeding_t_13": "Bleeding 3",
+  "item.rpgskill.dagger_sword": "Dagger Sword",
   "effect.bleeding_t_12": "Bleeding 2",
   "effect.bleeding_t_11": "Bleeding 1",
   "effect.dp_1_cooldown": "Dagger Passive Cooldown",
+  "block.rpgskill.pebble": "Pebble",
   "item.rpgskill.beginners_pickaxe": "Beginners Pickaxe",
-  "block.rpgskill.regen_iron": "Regen Iron"
+  "block.rpgskill.regen_iron": "Regen Iron",
+  "block.rpgskill.stick": "Sticks",
+  "enchantment.rpgskill.mining_proficency": "Gathering Proficency",
+  "key.rpgskill.openskills": "Openskills"
 }
