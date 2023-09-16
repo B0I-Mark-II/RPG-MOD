@@ -3,13 +3,11 @@ package net.mcreator.rpgskill.enchantment;
 
 import net.minecraftforge.registries.ObjectHolder;
 
-import net.minecraft.item.ItemStack;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.enchantment.EnchantmentType;
 import net.minecraft.enchantment.Enchantment;
 
-import net.mcreator.rpgskill.item.BeginnersPickaxeItem;
 import net.mcreator.rpgskill.RpgskillModElements;
 
 @RpgskillModElements.ModElement.Tag
@@ -44,13 +42,6 @@ public class MiningProficencyEnchantment extends RpgskillModElements.ModElement 
 		@Override
 		protected boolean canApplyTogether(Enchantment ench) {
 			if (ench == Enchantments.FORTUNE)
-				return true;
-			return false;
-		}
-
-		@Override
-		public boolean canApplyAtEnchantingTable(ItemStack stack) {
-			if (stack.getItem() == BeginnersPickaxeItem.block)
 				return true;
 			return false;
 		}

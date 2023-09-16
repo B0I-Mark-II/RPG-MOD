@@ -14,11 +14,7 @@
       }
     ],
     "excludeEnchantments": true,
-    "compatibleItems": [
-      {
-        "value": "CUSTOM:BeginnersPickaxe"
-      }
-    ],
+    "compatibleItems": [],
     "excludeItems": false,
     "isTreasureEnchantment": false,
     "isCurse": false,
